@@ -1,0 +1,2043 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart New Website</title>
+    <style>
+        /* .container {
+            height: 10px;
+            width: 90px;
+            display: flex
+        }
+
+        .box1 {
+
+            height: 190px;
+            width: 215px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            border-top-width: 1px;
+            border-bottom-width: 0px;
+            border-bottom-style: solid;
+            margin-top: -3px;
+            margin-left: 224px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+        }
+
+        .sub-container {
+            margin-top: -103px;
+            margin-left: 254px;
+            margin-right: 414px;
+            margin-bottom: -20px;
+            padding-left: 9px;
+            padding-right: 12px;
+           
+            border-bottom-width: 0px;
+            border-bottom-style: solid;
+            height: 15.167px;
+            width: 229px;
+
+
+        }
+
+
+
+        input[type="text"] {
+  
+            box-sizing: border-box;
+            border-radius: 5%;
+            padding-left: 0px;
+            padding-right: 4px;
+            border-bottom-style: solid;
+            border-right-width: 1.667px;
+            border-right-style: solid;
+            padding-top: 9px;
+            padding-left: 12px;
+            margin-top: 10px;
+            margin-bottom: 14px;
+            height: 10vh;
+            width: 200vw;
+            font-size: medium;
+            font-style: oblique;
+            font-weight: 100;
+
+        }
+
+        .sub-container1 {
+            display: flex;
+            height: 70px;
+            width: 70px;
+            padding-top: 28px;
+            border-left-width: 0px;
+            border-left-style: solid;
+            padding-left: 0px;
+            margin-top: 37px;
+
+        }
+
+        .sub-container2 {
+            position: relative;
+            margin-top: 30px;
+            height: 50px;
+            width: 50px;
+            margin-left: 280px;
+            margin-bottom: 0px;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            margin-right: 0px;
+            margin-top: 35px;
+        }
+
+        .sub-container3 {
+            position: relative;
+            margin-top: 30px;
+            height: 50px;
+            width: 50px;
+            margin-left: 280px;
+            margin-bottom: 0px;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            margin-right: 0px;
+            margin-top: 35px;
+        } */
+
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+            /* background-color: rgb(241, 238, 238); */
+
+        }
+
+        .nav-logo img {
+            height: 30px;
+
+        }
+
+        .nav-search {
+            height: 30px;
+            background-color: #f0f5ff;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .nav-search img {
+            height: 30px;
+
+        }
+
+        .nav-search input {
+            height: 50PX;
+            width: 500px;
+            padding: 0px 10px;
+            background-color: transparent;
+            border: 0;
+            font-size: larger;
+            font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+            ;
+        }
+
+        .nav-store {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+            ;
+            /* background-color: grey; */
+
+
+        }
+
+        .nav-store img {
+            height: 30px;
+            padding-right: 10px;
+
+        }
+
+        .nav-sign-in {
+            display: flex;
+            align-items: center;
+            font-size: large;
+            font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+
+        }
+
+        .nav-sign-in img {
+            height: 30px;
+            padding-right: 10px;
+
+        }
+
+        .nav-cart {
+            display: flex;
+            align-items: center;
+            font-size: large;
+            font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+        }
+
+        .nav-cart img {
+            height: 30px;
+            padding-right: 10px;
+        }
+
+        .nav-dots img {
+            height: 40px;
+            width: 40px;
+        }
+
+        .header-container {
+            padding-top: 10px;
+            width: 100%;
+            min-height: 40px;
+            background: hsl(0, 0%, 100%) url(../images/bg.png) no-repeat top left / cover;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            flex-direction: column;
+            justify-content: space-around;
+            align-content: space-around;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: space-around; */
+            /* align-content: space-between; */
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+            flex-direction: row;
+            align-items: flex-end;
+            /* background-color: rgb(230, 227, 227); */
+
+        }
+
+        .header-sub-container {
+            /* margin : auto ; */
+            flex-direction: column;
+            text-align: center;
+
+        }
+
+        .header-text {
+            font-weight: bold;
+            font-size: large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+
+        }
+
+        .banner-container {
+            position: relative;
+            padding-top: 30px;
+            /* margin : auto !important;; */
+            max-width: 100% !important;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .banner-container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            overflow: scroll;
+        }
+
+
+        .electronic-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            /* flex-direction: row; */
+        }
+
+        .camera-container img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        }
+
+        .camera-container {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border-style: solid;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            font-size: larger;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+            ;
+            /* font-weight: bold; */
+        }
+
+        .nav-image {
+            font-size: larger;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+            /* object-fit: cover; */
+        }
+
+        .banner-container3 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+        }
+
+        .Beauty-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            /* flex-direction: column; */
+        }
+
+        .cycle-container img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        }
+
+        .cycle-container {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border-style: solid;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            font-size: larger;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .nav-image1 {
+            font-size: larger;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .banner-container4 {
+            /* display: flex; */
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            margin-right: 20px;
+            background-color: antiquewhite;
+
+        }
+
+        .Gifting-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            flex-direction: initial;
+        }
+
+        .watch-container img {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            object-fit: contain;
+            /* flex-direction: column; */
+        }
+
+        .watch-container {
+            margin-top: 10px;
+            /* margin-left: 10px; */
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border-style: solid;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+            gap: 15px;
+        }
+
+        .nav-image2 {
+            font-size: x-large;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+            color: green;
+        }
+
+        .banner-container5 {
+            /* width: 48%; */
+            /* display: flex; */
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            margin-right: 22px;
+        }
+
+        .Gifting-container1 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* 2 columns with equal width */
+            gap: 20px;
+            /* Adjust the gap between grid items */
+            /* background-color: green; */
+        }
+
+        .serving-container img {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            object-fit: contain;
+            flex-direction: column;
+        }
+
+        .serving-container {
+            margin-top: 10px;
+            /* margin-left: 10px; 
+            margin-right: -9px;  */
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border-style: solid;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .nav-image3 {
+            font-size: x-large;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+            color: green;
+        }
+
+
+        .main-container {
+            /* display: flex; */
+            padding-right: 20px;
+            padding-left: 20px;
+            margin-top: 25px;
+            margin-left: 5px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            /* justify-content: space-evenly; */
+            /* flex-direction: row; */
+            /* background-color: rgb(112, 112, 112); */
+        }
+
+
+        .main-container1 {
+            /* display: flex; */
+            padding-right: 20px;
+            margin-top: 20px;
+            /* margin-bottom: 20px; */
+            padding-top: 0px;
+            padding-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 20%;
+            flex-direction: row;
+            background-color: antiquewhite;
+            /* margin-left: 614px; */
+            margin-right: 30px;
+
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* Adjust alignment as needed */
+            align-items: center;
+            /* Adjust alignment as needed */
+            margin-bottom: 20px;
+            /* Add margin between rows */
+        }
+
+        .banner-container6 {
+            /* display: flex; */
+            flex-direction: row;
+            align-items: center;
+            /* Center elements vertically */
+            text-align: center;
+            padding-left: 20px;
+            margin-bottom: 20px;
+            /* Add margin between rows */
+        }
+
+        .Gifting-container2 {
+            display: flex;
+            /* Change to flex to create a row layout */
+            flex-direction: row;
+            align-items: center;
+            /* Center elements vertically */
+            /* gap: 20px; */
+            /* Adjust the gap between items */
+            /* background-color: green; */
+        }
+
+        .serving-container1 img {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            object-fit: contain;
+            flex-direction: row;
+        }
+
+        .serving-container1 {
+            /* Adjust margin and padding as needed */
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border: 1px solid #e0e0e0;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .nav-image4 {
+            font-size: x-large;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+            /* color: green; */
+        }
+
+
+        .banner-container6 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            /* background-color: antiquewhite; */
+        }
+
+        .fashion-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            /* flex-direction: column; */
+            background-color: rgba(238, 232, 225, 0.895);
+        }
+
+        .tops-container img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        }
+
+        .tops-container {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border-style: solid;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .nav-image5 {
+            font-size: x-large;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .banner-container7 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            /* background-color: antiquewhite; */
+        }
+
+        .fashion-container1 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            /* flex-direction: column; */
+            background-color: rgba(238, 232, 225, 0.895);
+        }
+
+        .tops-container1 img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        }
+
+        .tops-container1 {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border-style: solid;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+
+        .nav-image6 {
+            font-size: x-large;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .banner-container8 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            /* background-color: antiquewhite; */
+        }
+
+        .fashion-container2 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            /* flex-direction: column; */
+            background-color: rgba(238, 232, 225, 0.895);
+        }
+
+        .tops-container2 img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        }
+
+        .tops-container2 {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border-style: solid;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+
+        .nav-image7 {
+            font-size: x-large;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .banner-container9 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            /* background-color: antiquewhite; */
+        }
+
+        .fashion-container3 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            /* flex-direction: column; */
+            background-color: rgba(238, 232, 225, 0.895);
+        }
+
+        .tops-container3 img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        }
+
+        .tops-container3 {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border-style: solid;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+
+        .nav-image8 {
+            font-size: x-large;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .banner-container10 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            /* background-color: antiquewhite; */
+        }
+
+        .fashion-container4 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            /* flex-direction: column; */
+            background-color: rgba(238, 232, 225, 0.895);
+        }
+
+        .tops-container4 img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        }
+
+        .tops-container4 {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border-style: solid;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+
+        .nav-image9 {
+            font-size: x-large;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .banner-container11 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            /* background-color: antiquewhite; */
+        }
+
+        .fashion-container5 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            /* flex-direction: column; */
+            background-color: rgba(238, 232, 225, 0.895);
+        }
+
+        .tops-container5 img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        }
+
+        .tops-container5 {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border-style: solid;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+
+        .nav-image10 {
+            font-size: x-large;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .banner-container12 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            /* background-color: antiquewhite; */
+        }
+
+        .fashion-container6 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            /* flex-direction: column; */
+            background-color: rgba(238, 232, 225, 0.895);
+        }
+
+        .tops-container6 img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        }
+
+        .tops-container6 {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(249, 253, 253);
+            border-style: solid;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            font-size: x-large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+
+        .nav-image11 {
+            font-size: x-large;
+            font-weight: bold;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+        }
+
+        .banner-container13 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            justify-content: space-around;
+            padding-left: 20px;
+            background-color: antiquewhite;
+            margin-top: 37px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 1px;
+            background-color: rgb(248, 249, 249);
+            border-style: inherit;
+            border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0;
+            line-height: 16px;
+            font-size: large;
+            letter-spacing: -.2px;
+            /* font-size: x-large; */
+            font-family: sans-serif;
+            font-style: calc();
+        }
+
+        .main-container2 {
+            /* display: flex; */
+            padding-right: 20px;
+            margin-top: 20px;
+            /* margin-bottom: 20px; */
+            /* padding-top: 0px; */
+            padding-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 20%;
+            flex-direction: row;
+            background-color: black;
+            /* color: #f0f5ff; */
+            /* margin-left: 614px; */
+            /* margin-right: 30px; */
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+
+        }
+
+        .row {
+            /* display: flex; */
+            flex-direction: row;
+            justify-content: space-between;
+            /* Adjust alignment as needed */
+            align-items: center;
+            /* Adjust alignment as needed */
+            margin-bottom: 20px;
+            /* Add margin between rows */
+        }
+
+
+        .banner-container14 {
+            display: flex;
+            /* flex-direction: column; */
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            gap: 3%;
+            line-height: 2;
+            color: white;
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+
+            /* background-color: antiquewhite; */
+        }
+
+        .centre-container {
+            display: flex;
+            justify-content: center;
+            /* margin-top: 1%; */
+            flex-direction: column;
+            /* font-size: large; */
+            /* background-color: rgba(238, 232, 225, 0.895); */
+        }
+
+        /* .tops-container1 img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        } */
+
+        .about-container {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: -38px;
+            border-radius: 1px;
+            /* background-color: rgb(249, 253, 253); */
+            /* border-style: solid; */
+            /* border-top-color: #e0e0e0; */
+            /* border-right-color: #e0e0e0; */
+            /* border-left-color: #e0e0e0; */
+            /* border-bottom-color: #e0e0e0; */
+            font-size: large;
+            font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+            color: white;
+        }
+
+
+        .row {
+            /* display: flex; */
+            flex-direction: row;
+            justify-content: space-between;
+            /* Adjust alignment as needed */
+            align-items: center;
+            /* Adjust alignment as needed */
+            margin-bottom: 20px;
+            /* Add margin between rows */
+        }
+
+
+
+        .banner-container15 {
+            display: flex;
+            /* flex-direction: column; */
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            /* gap: %; */
+            line-height: 2;
+            color: white;
+            /* background-color: antiquewhite; */
+        }
+
+        .centre-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            /* flex-direction: column; */
+            /* background-color: rgba(238, 232, 225, 0.895); */
+        }
+
+        /* .tops-container1 img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        } */
+
+        .about-container {
+            margin-top: 10px;
+            /* margin-left: 10px; */
+            /* margin-right: 10px; */
+            border-radius: 1px;
+            /* background-color: rgb(249, 253, 253); */
+            /* border-style: solid; */
+            /* border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0; */
+            font-size: large;
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            font-weight: 5%;
+            color: white;
+        }
+
+        .banner-container15 {
+            display: flex;
+            /* flex-direction: column; */
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            /* gap: %; */
+            line-height: 2;
+            /* background-color: antiquewhite; */
+            white-space: nowrap;
+            /* color: #fff; */
+            /* font-size: 12px; */
+            /* line-height: 18px; */
+        }
+
+
+        .centre-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            /* flex-direction: column; */
+            /* background-color: rgba(238, 232, 225, 0.895); */
+        }
+
+        /* .tops-container1 img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        } */
+
+        .about-container {
+            margin-top: 10px;
+            /* margin-left: 10px; */
+            /* margin-right: 10px; */
+            border-radius: 1px;
+            /* background-color: rgb(249, 253, 253); */
+            /* border-style: solid; */
+            /* border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0; */
+            font-size: large;
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            font-weight: 2%;
+        }
+
+        .banner-container16 {
+            display: flex;
+            /* flex-direction: column; */
+            align-items: flex-start;
+            text-align: center;
+            padding-left: 20px;
+            /* gap: %; */
+            line-height: 2;
+            /* background-color: antiquewhite; */
+            white-space: nowrap;
+            /* color: #fff; */
+            /* font-size: 12px; */
+            /* line-height: 18px; */
+        }
+
+
+        .centre-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            /* flex-direction: column; */
+            /* background-color: rgba(238, 232, 225, 0.895); */
+        }
+
+        /* .tops-container1 img {
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            object-fit: contain;
+        } */
+
+        .about-container {
+            margin-top: 10px;
+            /* margin-left: 10px; */
+            /* margin-right: 10px; */
+            border-radius: 1px;
+            /* background-color: rgb(249, 253, 253); */
+            /* border-style: solid; */
+            /* border-top-color: #e0e0e0;
+            border-right-color: #e0e0e0;
+            border-left-color: #e0e0e0;
+            border-bottom-color: #e0e0e0; */
+            font-size: large;
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            font-weight: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Big-container">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/flipkart-095e08.svg"
+                    alt="Flipkart">
+            </div>
+            <div class="nav-search">
+                <img src="search.png" alt="search">
+                <input type="search" placeholder="Search for Brands and More ">
+            </div>
+            <div class="nav-store">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg"
+                    alt="Become A Seller"><span>Become a Seller</span>
+            </div>
+            <div class="nav-sign-in">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-815786.svg"
+                    alt="Sign in"><span>Sign in</span>
+            </div>
+            <div class="nav-cart">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg"
+                    alt="Cart"><span>Cart</span>
+            </div>
+            <div class="nav-dots">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg"
+                    alt="Dots">
+            </div>
+        </div><br>
+
+        <div class="header-container">
+            <div class="header-sub-container">
+                <img src="https://rukminim1.flixcart.com/flap/96/96/image/29327f40e9c4d26b.png?q=100" alt="Grocery"
+                    width="120px" height="120px">
+                <div class="header-text">
+                    Grocery
+                </div>
+            </div>
+            <div class="header-sub-container"><img src="mobile.png" alt="mobiles" width="120px" height="110px">
+                <div class="header-text">
+                    Mobiles
+                </div>
+            </div>
+            <div class="header-sub-container">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/96/96/image/0d75b34f7d8fbcb3.png?q=100" alt="Fashion"
+                    width="120px" height="120px">
+                <div class="header-text">
+                    Fashion
+                </div>
+            </div>
+            <div class="header-sub-container"><img
+                    src="https://rukminim1.flixcart.com/flap/96/96/image/69c6589653afdb9a.png?q=100" alt="Electronics"
+                    width="120px" height="120px">
+                <div class="header-text">
+                    Electronics
+                </div>
+            </div>
+            <div class="header-sub-container"><img
+                    src="https://rukminim1.flixcart.com/flap/96/96/image/ab7e2b022a4587dd.jpg?q=100" alt="Furniture"
+                    width="120px" height="120px">
+                <div class="header-text">
+                    Furniture
+                </div>
+            </div>
+            <div class="header-sub-container"><img
+                    src="https://rukminim1.flixcart.com/flap/96/96/image/0ff199d1bd27eb98.png?q=100" alt="Appliances"
+                    width="120px" height="120px">
+                <div class="header-text">
+                    Appliances
+                </div>
+            </div>
+            <div><img src="https://rukminim1.flixcart.com/flap/96/96/image/71050627a56b4693.png?q=100" alt="Travels"
+                    width="120px" height="120px">
+                <div class="header-text">
+                    Travels
+                </div>
+            </div>
+            <div class="header-sub-container">
+                <img src="https://rukminim1.flixcart.com/flap/96/96/image/dff3f7adcf3a90c6.png?q=100"
+                    alt="Beauty, Toys &amp; More" width="120px" height="120px">
+                <div class="header-text">
+                    Beauty, Toys & More
+                </div>
+            </div>
+            <div class="header-sub-container">
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/96/96/image/05d708653beff580.png?q=100"
+                    alt="Two-Wheeler" width="120px" height="120px">
+                <div class="header-text">
+                    Two Wheelers
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-container">
+            <img src="banner.png" alt="banner" width="100%" height="250px">
+        </div>
+        <div class="banner-container2">
+            <h1>Best Of Electronics</h1>
+            <div class="electronic-container">
+                <div class="camera-container">
+                    <img src="https://rukminim1.flixcart.com/image/420/420/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q60"
+                        alt="Camera">
+                    <p>Top Mirrorless Cameras</p>
+                    <div class="nav-image">
+                        <p>Shop Now!</p>
+                        <!-- <button id="btn">Buy Now</button></div> -->
+                    </div>
+                </div>
+                <div class="camera-container">
+                    <img src=https://rukminim1.flixcart.com/image/420/420/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q60
+                        alt="printers">
+                    <p>Printers</p>
+                    <div class="nav-image">
+                        <p>From ₹3999</p>
+                    </div>
+                </div>
+                <div class="camera-container">
+                    <img src="https://rukminim1.flixcart.com/image/420/420/ko8xtow0/monitor/t/a/y/d24-20-66aekac1in-lenovo-original-imag2qwzazcdmqtb.jpeg?q=60"
+                        alt="monitor">
+                    <p>Monitors</p>
+                    <div class="nav-image">
+                        <p>From ₹7949</p>
+                    </div>
+                </div>
+                <div class="camera-container">
+                    <img src=https://rukminim1.flixcart.com/flap/420/420/image/20c224cd52ae7a87.jpg?q60 alt="Trimmer">
+                    <p>Best Of Trimmers</p>
+                    <div class="nav-image">
+                        <p> From ₹399</p>
+                    </div>
+                </div>
+                <div class="camera-container">
+                    <img src=https://rukminim1.flixcart.com/image/420/420/xif0q/power-bank/d/a/f/-original-imagky3e8yp5ebvr.jpeg?q60
+                        alt="power-bank">
+                    <p>Premium PoweBanks</p>
+                    <div class="nav-image">
+                        <p>Shop Now</p>
+                    </div>
+                </div>
+                <div class="camera-container">
+                    <img src=https://rukminim1.flixcart.com/image/420/420/kactpjk0/shaver/m/6/z/philips-s1121-45-s1121-45-original-imafry2qgxcwnm9r.jpeg?q60
+                        alt="shavers">
+                    <p>Best Of Shavers</p>
+                    <div class="nav-image">
+                        <p>From ₹1,649</p>
+                    </div>
+                </div>
+                <!-- <div class="camera-container">
+                <img src=https://rukminim1.flixcart.com/image/420/420/kgpg5u80/printer/e/e/h/brother-dcp-b7535dw-original-imafwvkzwyjmqkfv.jpeg?q60
+                    alt="Printers">
+                <p>Printers</p>
+                <div class="nav-image">
+                    <p>From ₹10190</p>
+                </div>
+            </div> -->
+                <!-- <div class="camera-container">
+                <img src=https://rukminim1.flixcart.com/image/420/420/kgpg5u80/printer/e/e/h/brother-dcp-b7535dw-original-imafwvkzwyjmqkfv.jpeg?q60
+                    alt="Printers">
+                <p>Printers</p>
+                <div class="nav-image">
+                    <p>From ₹10190</p>
+                </div>
+            </div> -->
+            </div>
+        </div>
+        <div class="banner-container3">
+            <h1>Beauty, Food,Toys & more</h1>
+            <div class="Beauty-container">
+                <div class="cycle-container">
+                    <img src="https://rukminim1.flixcart.com/image/420/420/l111lzk0/cycle/m/r/e/xc-900-grey-lite-26-15-5-cradiac-21-gear-120-original-imagczuzpxeweczm.jpeg?q=60"
+                        alt="Cycle" width="150px" height="150px">
+                    <p>Geared Cycles</p>
+                    <div class="nav-image1">
+                        <p>From ₹3999</p>
+                    </div>
+                </div>
+                <div class="cycle-container">
+                    <img src="https://rukminim1.flixcart.com/image/420/420/klzhq4w0/jam-spread/w/q/u/510-chocolate-peanut-butter-crunchy-510g-jar-nut-butter-original-imagyzpqqfaguxny.jpeg?q=60"
+                        alt="Peanut" width="120px" height="120px">
+                    <p>Food Spreads</p>
+                    <div class="nav-image1">
+                        <p>Upto 75% Off</p>
+                    </div>
+                </div>
+                <div class="cycle-container">
+                    <img src="https://rukminim1.flixcart.com/image/420/420/k0plpjk0/remote-control-toy/9/g/k/4-function-remote-control-high-speed-big-racing-car-toy-funkey-original-imafkg33umd8dy93.jpeg?q60"
+                        alt="car" width="120px" height="120px">
+                    <p>Remote Control Toys</p>
+                    <div class="nav-image1">
+                        <p>Upto 80% Off</p>
+                    </div>
+                </div>
+                <div class="cycle-container">
+                    <img src="https://rukminim1.flixcart.com/image/420/420/kzegk280/action-figure/9/v/t/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg?q=60"
+                        alt="Tricycles" width="120px" height="130px">
+                    <p>Tricycles & Rideons</p>
+                    <div class="nav-image1">
+                        <p>Upto 70% Off</p>
+                    </div>
+                </div>
+                <div class="cycle-container">
+                    <img src="https://rukminim1.flixcart.com/image/420/420/k7w8eq80/two-wheeler-tyre/v/y/s/90-90-12-106061-milaze-tl-54j-sw-ceat-original-imafqyx5tnfraaxh.jpeg?q=60"
+                        alt="Tyres" width="120px" height="130px">
+                    <p>Tyres</p>
+                    <div class="nav-image1">
+                        <p>From 799</p>
+                    </div>
+                </div>
+                <div class="cycle-container">
+                    <img src="https://rukminim1.flixcart.com/image/420/420/kdbzqfk0/bar/8/h/q/push-up-bar-0-8-long-ankaro-original-imafu9dmvdk3rzvy.jpeg?q=60"
+                        alt="Gym" width="120px" height="130px">
+                    <p>Gym Essentials</p>
+                    <div class="nav-image1">
+                        <p>From ₹139</p>
+                    </div>
+                </div>
+                <!-- <div class="cycle-container">
+                <img src="https://rukminim1.flixcart.com/image/420/420/k6fd47k0/nut-dry-fruit/p/z/7/200-100-natural-california-pouch-happilo-original-imafzvw2tcazeur6.jpeg?q=60"
+                    alt="Dry Fruits" width="120px" height="130px">
+                <p>Dry Fruits</p>
+                <div class="nav-image1">
+                    <p>Upto 75% Off</p>
+                </div>
+            </div> -->
+                <!-- <div class="cycle-container">
+                <img src="https://rukminim1.flixcart.com/image/420/420/jlph9jk0/cycle/h/f/k/skyper-26t-sskp26bk0001-16-hero-original-imaf8ru5xysfgtmx.jpeg?q=60"
+                    alt="cycles" width="120px" height="130px">
+                <p>Non-Geared Cycles</p>
+                <div class="nav-image1">
+                    <p>Upto 40% Off</p>
+                </div>
+            </div> -->
+            </div>
+            <div class="main-container">
+                <div class="banner-container4">
+                    <h1>Rakhi Gifting Specials</h1>
+                    <div class="Gifting-container">
+                        <div class="watch-container">
+                            <img src="https://rukminim1.flixcart.com/image/500/500/xif0q/smartwatch/k/h/s/1-83-38083pp01-android-ios-fastrack-yes-original-imagnhzeabmcfspe.jpeg?q=60"
+                                alt="Watches">
+                            <p>Smart Watches</p>
+                            <div class="nav-image2">
+                                <p>Min. 40% Off</p>
+                            </div>
+                        </div>
+                        <div class="watch-container">
+                            <img src="https://rukminim1.flixcart.com/image/500/500/xif0q/rakhi-set/q/i/i/14-1033-dreamcart-original-imagrdh6vtghqpm5.jpeg?q60"
+                                alt="rakhi">
+                            <p>Rakhi & Rakhi Sets</p>
+                            <div class="nav-image2">
+                                <p>Min. 50% Off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-container5">
+                        <div class="Gifting-container1">
+                            <div class="serving-container">
+                                <img src="https://rukminim1.flixcart.com/image/500/500/xif0q/serving-set/h/p/7/stainless-steel-serving-bowl-with-high-grade-kiaraa-original-imaght3vxcwhfwgv.jpeg?q=60"
+                                    alt="serving sets">
+                                <p>Serving Sets</p>
+                                <div class="nav-image3">
+                                    <p>Min. 50% Off</p>
+                                </div>
+                            </div>
+                            <div class="serving-container">
+                                <img src="https://rukminim1.flixcart.com/image/500/500/xif0q/plant-seed/5/5/c/40-125705-jdm-store-original-imaggn4fcz3zy5cd.jpeg?q=60"
+                                    alt="Flower">
+                                <p>Plant Seeds</p>
+                                <div class="nav-image3">
+                                    <p>Min. 50% Off</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-container1">
+                    <div class="banner-container4">
+                        <h1>Hand-Picked Home Decor</h1>
+                        <div class="Gifting-container2">
+                            <div class="watch-container">
+                                <img src="https://rukminim1.flixcart.com/image/500/500/xif0q/condiment-set/n/o/l/2-in-1-dumpling-maker-manual-dough-press-machine-multifunction-original-imagneev2mukzu5f.jpeg?q=60"
+                                    alt="">
+                                <p>Condiment Sets</p>
+                                <div class="nav-image3">
+                                    <p>Min. 50% Off</p>
+                                </div>
+                            </div>
+                            <div class="watch-container">
+                                <img src="https://rukminim1.flixcart.com/image/500/500/xif0q/shopsy-bedsheet/m/a/b/fre-101-1-10177-alaficer-original-imageht9harkhggq.jpeg?q=60"
+                                    alt="bedsheet">
+                                <p>Bedsheets</p>
+                                <div class="nav-image3">
+                                    <p>Min. 50% Off</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-container5">
+                        <div class="Gifting-container1">
+                            <div class="serving-container">
+                                <img src="https://rukminim1.flixcart.com/image/500/500/xif0q/glass/z/a/a/stainless-steel-tea-coffee-cup-leroyal-100-original-imagqhf3dkhnm7pv.jpeg?q=60"
+                                    alt="glasses">
+                                <p>Glasses</p>
+                                <div class="nav-image3">
+                                    <p>Min. 50% Off</p>
+                                </div>
+                            </div>
+                            <div class="serving-container">
+                                <img src="https://rukminim1.flixcart.com/image/500/500/xif0q/speaker/soundbar/e/q/y/m423sp-portable-home-tv-soundbar-dynamic-thunder-sound-2400mah-original-imagj65gvywxx6jh.jpeg?q=60"
+                                    alt="speaker">
+                                <p>Speaker</p>
+                                <div class="nav-image3">
+                                    <p>Min. 50% Off</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="main-container1">
+                    <div class="banner-container4">
+                        <h1>Monsoon Essentials</h1>
+                        <div class="Gifting-container2">
+                            <div class="watch-container">
+                                <img src="https://rukminim1.flixcart.com/image/500/500/xif0q/screen-guard/edge-to-edge-screen-guard/b/r/7/igh-bass-0-585-be-found-in-hub-original-imagpa2dqmhkuh7k.jpeg?q=60"
+                                    alt="Watches">
+                                <p>Smart Watch guard</p>
+                                <div class="nav-image3">
+                                    <p>Min. 40% Off</p>
+                                </div>
+                            </div>
+                            <div class="watch-container">
+                                <img src="https://rukminim2.flixcart.com/image/400/400/l0pm3680/hammock-swing/x/6/u/70-0-5-white-hammock-swing-hanging-chair-swingzy-original-imagcfrjygmhrfyk.jpeg?q=70"
+                                    alt="rakhi">
+                                <p>Hammock Swings</p>
+                                <div class="nav-image3">
+                                    <p>Min. 50% Off</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-container5">
+                        <div class="Gifting-container1">
+                            <div class="serving-container">
+                                <img src="https://rukminim2.flixcart.com/image/400/400/k3yrte80/collapsible-wardrobe/v/a/3/pp-88130-hcx-88130-pp-polypropylene-collapsible-wardrobe-finish-original-imaf744xhgmk6d7r.jpeg?q=70"
+                                    alt="serving sets">
+                                <p>Collapsible Wardrobe</p>
+                                <div class="nav-image3">
+                                    <p>Min. 50% Off</p>
+                                </div>
+                            </div>
+                            <div class="serving-container">
+                                <img src="https://rukminim2.flixcart.com/image/400/400/l4ssfww0/mosquito-net/m/a/7/king-size-bed-mosquito-net-polyester-foldable-king-size-bed-original-imagfm4wqqbjtwjq.jpeg?q=70"
+                                    alt="Flower">
+                                <p>Mosquito Nets</p>
+                                <div class="nav-image3">
+                                    <p>Min. 50% Off</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="banner-container6">
+                <h1>Fashion Top Deals</h1>
+                <div class="fashion-container">
+                    <div class="tops-container">
+                        <img src="https://rukminim2.flixcart.com/image/400/400/kxnl6kw0/jewellery-set/a/c/d/na-na-m11-single-r5-bright-style-original-imaga2ahezaabmry.jpeg?q=70"
+                            alt="jewellery-set" width="150px" height="150px">
+                        <p>Fashion Jewellery</p>
+                        <div class="nav-image4">
+                            <p>From ₹99</p>
+                        </div>
+                    </div>
+                    <div class="tops-container">
+                        <img src="https://rukminim2.flixcart.com/image/400/400/l23mhzk0/top/a/b/l/m-tttp006710-tokyo-talkies-original-imagdgg4gqpmdgm8.jpeg?q=70"
+                            alt="jeans" width="150px" height="150px">
+                        <p>Top, Dresses, & Jeans</p>
+                        <div class="nav-image4">
+                            <p>Min 60% Off</p>
+                        </div>
+                    </div>
+                    <div class="tops-container">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/420/420/image/5aa98b7cee183286.jpg?q=60"
+                            alt="shoes" width="150px" height="150px">
+                        <p>Best Selling Styles</p>
+                        <div class="nav-image4">
+                            <p>Min 40% Off</p>
+                        </div>
+                    </div>
+                    <div class="tops-container">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/l111lzk0/kurta/t/r/c/m-dafksp22daterracota-max-original-imagczshpt7mamjd.jpeg?q=60"
+                            alt="kurtas" width="150px" height="150px">
+                        <p>Kurtas Sets & More</p>
+                        <div class="nav-image4">
+                            <p>Upto 70% Off</p>
+                        </div>
+                    </div>
+                    <div class="tops-container">
+                        <img src="https://rukminim1.flixcart.com/flap/420/420/image/4398b53c0596430f.jpg?q=60"
+                            alt="kids wear" width="150px" height="150px">
+                        <p>Kids Clothing</p>
+                        <div class="nav-image4">
+                            <p>Min. 60% Off</p>
+                        </div>
+                    </div>
+                    <div class="tops-container">
+                        <img src="https://rukminim2.flixcart.com/image/400/400/ksez24w0/hand-messenger-bag/w/z/z/amy-plus-md-satchel-ladies-handbag-hgge016022m3-satchel-lavie-original-imag5zj5aqrwgcdz.jpeg?q=70"
+                            alt="Bag" width="150px" height="150px">
+                        <p>Lavie,Caprese,Allensolly</p>
+                        <div class="nav-image4">
+                            <p>40%-70% Off</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-container7">
+                <h1>Top Deals</h1>
+                <div class="fashion-container1">
+                    <div class="tops-container1">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/ktop5e80/tablet/x/9/o/mk2k3hn-a-apple-original-imag6yy7xjjugz4w.jpeg?q=60"
+                            alt="ipad" width="150px" height="150px">
+                        <p>Apple iPads</p>
+                        <div class="nav-image6">
+                            <p>Shop Now!</p>
+                        </div>
+                    </div>
+                    <div class="tops-container1">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/kihqz680/dslr-camera/g/z/t/alpha-7siii-ilce-7sm3-bq-in5-sony-original-imafya2qhvjjmruh.jpeg?q=60"
+                            alt="cameras" width="150px" height="150px">
+                        <p>Mirrorless Cameras</p>
+                        <div class="nav-image6">
+                            <p>From ₹57,999</p>
+                        </div>
+                    </div>
+                    <div class="tops-container1">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/kz5vwy80/lehenga-choli/v/h/3/free-half-sleeve-bridal-udbhav-textile-original-imagb86ecmmwjewk.jpeg?q=60"
+                            alt="lehangas" width="150px" height="150px">
+                        <p>Sabse Amazing Deals</p>
+                        <div class="nav-image6">
+                            <p>From ₹299</p>
+                        </div>
+                    </div>
+                    <div class="tops-container1">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/instant-camera/y/l/3/mini-12-instax-16791340-fujifilm-original-imagzkbhzrx7ssyd.jpeg?q=60"
+                            alt="cameras" width="150px" height="150px">
+                        <p>Instax Cameras</p>
+                        <div class="nav-image6">
+                            <p>From ₹3,999</p>
+                        </div>
+                    </div>
+                    <div class="tops-container1">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/l3bx5e80/ethnic-set/x/a/n/m-vnk3003672-vishudh-original-imagegw468vxaqwz.jpeg?q=60"
+                            alt="kurtis" width="150px" height="150px">
+                        <p>Kurtas Sets</p>
+                        <div class="nav-image6">
+                            <p>Under ₹599</p>
+                        </div>
+                    </div>
+                    <div class="tops-container1">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/lehenga-choli/i/v/r/free-sleeveless-chahat-purvaja-original-imagqarwtxp64znu.jpeg?q=60"
+                            alt="lehanga" width="150px" height="150px">
+                        <p>Amazing Lehanga</p>
+                        <div class="nav-image6">
+                            <p>Under ₹599</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="banner-container8">
+                <h1>Books, Toys & More</h1>
+                <div class="fashion-container2">
+                    <div class="tops-container2">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/ki3gknk0/helmet/p/4/9/sba-1-cesar-sba-1-cesar-full-face-steelbird-original-imafxyhzwrhqyvcx.jpeg?q=60"
+                            alt="helmet" width="150px" height="150px">
+                        <p>Helmet</p>
+                        <div class="nav-image7">
+                            <p>From ₹699</p>
+                        </div>
+                    </div>
+                    <div class="tops-container2">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/kmds4nk0/vehicle-indicator-light/c/g/9/set-of-4-bike-front-side-rear-smd-blue-led-light-indicator-turn-original-imagfatnzgzegkmg.jpeg?q=60"
+                            alt="bulb" width="150px" height="150px">
+                        <p>Bike Light Bulb</p>
+                        <div class="nav-image7">
+                            <p>From ₹89</p>
+                        </div>
+                    </div>
+                    <div class="tops-container2">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/kfbfr0w0/arm-sleeve/p/x/3/free-arm-gy-auto-hub-original-imafvsutr6gkvsuf.jpeg?q=60"
+                            alt="glove" width="150px" height="150px">
+                        <p>Riding Glove</p>
+                        <div class="nav-image7">
+                            <p>Upto 80% Off</p>
+                        </div>
+                    </div>
+                    <div class="tops-container2">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/l3ahpjk0/air-freshener/b/b/k/10-godreg-aer-frshner-gel-skynex-original-imagegfwhgxpukvj.jpeg?q=60"
+                            alt="air freshner" width="150px" height="150px">
+                        <p>Car Air Freshner</p>
+                        <div class="nav-image7">
+                            <p>From ₹199</p>
+                        </div>
+                    </div>
+                    <div class="tops-container2">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=60"
+                            alt="pencils" width="150px" height="150px">
+                        <p>Top Selling Stationery</p>
+                        <div class="nav-image7">
+                            <p>From ₹49</p>
+                        </div>
+                    </div>
+                    <div class="tops-container2">
+                        <img src="https://rukminim2.flixcart.com/image/400/400/jy4q3680/car-sticker/j/z/q/1-m-carfullsideimage-marvellous-original-imafgfv4ffpdw2wz.jpeg?q=70"
+                            alt="sticker" width="150px" height="150px">
+                        <p>Car Sticker And Decal</p>
+                        <div class="nav-image7">
+                            <p>Upto 70% Off</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-container9">
+                    <h1>Pick Your Style</h1>
+                    <div class="fashion-container3">
+                        <div class="tops-container3">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/kb9ou4w0/shoe/j/g/6/11391306-40-u-s-polo-assn-white-original-imafsnetwnyzu8x2.jpeg?q=60"
+                                alt="shoes" width="150px" height="150px">
+                            <p>US, Polo</p>
+                            <div class="nav-image8">
+                                <p>Min 40% Off</p>
+                            </div>
+                        </div>
+                        <div class="tops-container3">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/sari/k/y/v/free-4062-pithavadiwala-unstitched-original-imagzym9tfmnmrs9.jpeg?q=60"
+                                alt="saree" width="150px" height="150px">
+                            <p>Trendy Saree</p>
+                            <div class="nav-image8">
+                                <p>Min 60% Off</p>
+                            </div>
+                        </div>
+                        <div class="tops-container3">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=60"
+                                alt="hoodie" width="150px" height="150px">
+                            <p>SweatShirt, Hoodies</p>
+                            <div class="nav-image8">
+                                <p>From ₹249</p>
+                            </div>
+                        </div>
+                        <div class="tops-container3">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/ethnic-set/g/c/l/xl-na-21020352-anouk-original-imagz4fjftvgwsu3.jpeg?q=60"
+                                alt="kurta set" width="150px" height="150px">
+                            <p>Kurtas Set</p>
+                            <div class="nav-image8">
+                                <p>From ₹199</p>
+                            </div>
+                        </div>
+                        <div class="tops-container3">
+                            <img src="https://rukminim1.flixcart.com/flap/420/420/image/f1ffa6330a602013.jpeg?q=60"
+                                alt="bags,trolly" width="150px" height="150px">
+                            <p>Bags, Trolley, Luggage</p>
+                            <div class="nav-image8">
+                                <p>50-70%+Extra 10% Off</p>
+                            </div>
+                        </div>
+                        <div class="tops-container3">
+                            <img src="https://rukminim2.flixcart.com/image/400/400/jvmpci80/track-pant/g/w/j/s-7224489-hrx-by-hrithik-roshan-original-imafghfrgedw3zq8.jpeg?q=70"
+                                alt="pants" width="150px" height="150px">
+                            <p>Nivea, Track Pants</p>
+                            <div class="nav-image8">
+                                <p>Upto 60% Off</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-container10">
+                    <h1>Top Deals On TVs & Appliances</h1>
+                    <div class="fashion-container4">
+                        <div class="tops-container4">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/refrigerator-new/t/x/s/-original-imaghtghjcf67haj.jpeg?q=60"
+                                alt="fridge" width="150px" height="150px">
+                            <p>Double Door Refrigerator</p>
+                            <div class="nav-image9">
+                                <p>From ₹16,129</p>
+                            </div>
+                        </div>
+                        <div class="tops-container4">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/k16qzrk0/refrigerator-new/u/h/k/sbs-560w-na-marq-by-flipkart-original-imafkpazkqm7tnbr.jpeg?q=60"
+                                alt="fridge" width="150px" height="150px">
+                            <p>Marq Refrigerator</p>
+                            <div class="nav-image9">
+                                <p>From ₹8,999</p>
+                            </div>
+                        </div>
+                        <div class="tops-container4">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/washing-machine-new/t/d/r/-original-imagnjr27khbzqdh.jpeg?q=60"
+                                alt="fridge" width="150px" height="150px">
+                            <p>Big Washing Machines</p>
+                            <div class="nav-image9">
+                                <p>Buy Now</p>
+                            </div>
+                        </div>
+                        <div class="tops-container4">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/refrigerator-new/o/l/j/-original-imagqcv48z67vfv9.jpeg?q=60"
+                                alt="fridge" width="150px" height="150px">
+                            <p>Godrej Refrigerator</p>
+                            <div class="nav-image9">
+                                <p>From ₹7240</p>
+                            </div>
+                        </div>
+                        <div class="tops-container4">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/washing-machine-new/w/h/x/-original-imagrfh9y44w7g9j.jpeg?q=60"
+                                alt="fridge" width="150px" height="150px">
+                            <p>Semi Automatic Washing</p>
+                            <div class="nav-image9">
+                                <p>Buy Now</p>
+                            </div>
+                        </div>
+                        <div class="tops-container4">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/kbb49zk0/refrigerator-new/w/w/8/rds1903r-3-onida-original-imafszkrxfkngdfj.jpeg?q=60"
+                                alt="fridge" width="150px" height="150px">
+                            <p>Single Door Refrigerator</p>
+                            <div class="nav-image9">
+                                <p>From ₹9,990</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-container11">
+                    <h1>Beauty Food & More</h1>
+                    <div class="fashion-container5">
+                        <div class="tops-container5">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/khmbafk0-0/level/x/y/5/10-0-601-072-hf0-bosch-original-imafxh9vsdbmww66.jpeg?q=60"
+                                alt="beauty" width="150px" height="150px">
+                            <p>Bosch Tool</p>
+                            <div class="nav-image10">
+                                <p>From ₹399</p>
+                            </div>
+                        </div>
+                        <div class="tops-container5">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/k0e66q80/plant-sapling/c/e/7/air-purifying-pothos-money-plant-with-imported-pot-1-water-original-imafk747aczgq6ze.jpeg?q=60"
+                                alt="beauty" width="150px" height="150px">
+                            <p>Live Plants</p>
+                            <div class="nav-image10">
+                                <p>From ₹199</p>
+                            </div>
+                        </div>
+                        <div class="tops-container5">
+                            <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/hose-connector/b/q/b/1-2-brass-nozzle-water-spray-gun-hose-nozzles-pipe-for-gardening-original-imaghbm9jgx9vgxh.jpeg?q=60"
+                                alt="beauty" width="150px" height="150px">
+                            <p>Santizer Spray</p>
+                            <div class="nav-image10">
+                                <p>From ₹199</p>
+                            </div>
+                        </div>
+                        <div class="tops-container5">
+                            <img src="https://rukminim2.flixcart.com/image/400/400/kqmo8sw0/clothesline/q/k/c/01-3-meter-windproof-anti-slip-clothes-washing-line-drying-rope-original-imag4hchexvtznyy.jpeg?q=70"
+                                alt="beauty" width="150px" height="150px">
+                            <p>Clothesline</p>
+                            <div class="nav-image10">
+                                <p>Under ₹99</p>
+                            </div>
+                        </div>
+                        <div class="tops-container5">
+                            <img src="https://rukminim2.flixcart.com/image/400/400/kcjexe80/honey/w/y/4/1-honey-saffola-original-imaftn9ppz2shxzg.jpeg?q=70"
+                                alt="beauty" width="150px" height="150px">
+                            <p>Honey</p>
+                            <div class="nav-image10">
+                                <p>Upto 75% Off</p>
+                            </div>
+                        </div>
+                        <div class="tops-container5">
+                            <img src="https://rukminim2.flixcart.com/image/400/400/kqfj1jk0/paint-roller/2/l/l/special-effect-wood-grain-for-wall-d-cor-red-color-5-inch-original-imag4fzcnhzg4xfe.jpeg?q=70"
+                                alt="beauty" width="150px" height="150px">
+                            <p>Paint Rollers</p>
+                            <div class="nav-image10">
+                                <p>From ₹129</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="banner-container12">
+                <h1>Fashion Best Sellers</h1>
+                <div class="fashion-container6">
+                    <div class="tops-container6">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/jwgple80/backpack/n/e/w/spin-laptop-backpack-01-teal-fs0-0-11-001-laptop-backpack-original-imafh54gqnmpsczs.jpeg?q=60"
+                            alt="fashion" width="150px" height="150px">
+                        <p>Safari , Wildcraft</p>
+                        <div class="nav-image11">
+                            <p>Min 65% Off</p>
+                        </div>
+                    </div>
+                    <div class="tops-container6">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/dress/j/s/f/s-kbt-559-krati-by-tara-original-imagg9hftvfxe56u.jpeg?q=60"
+                            alt="beauty" width="150px" height="150px">
+                        <p>Dresses , Tops & Jeans</p>
+                        <div class="nav-image11">
+                            <p>Min 60% Off</p>
+                        </div>
+                    </div>
+                    <div class="tops-container6">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/kqpj4i80/ring/8/1/8/adjustable-cfr-k149-ring-set-karishma-kreations-original-imag4ntug2g26twf.jpeg?q=60"
+                            alt="beauty" width="150px" height="150px">
+                        <p>Jewellery</p>
+                        <div class="nav-image11">
+                            <p>Under ₹799</p>
+                        </div>
+                    </div>
+                    <div class="tops-container6">
+                        <img src="https://rukminim2.flixcart.com/fk-p-flap/400/400/image/dca97fb4b0c593f8.jpg?q=70"
+                            alt="beauty" width="150px" height="150px">
+                        <p>Trendy Kurtas Sets & More</p>
+                        <div class="nav-image11">
+                            <p>Min 70% Off</p>
+                        </div>
+                    </div>
+                    <div class="tops-container6">
+                        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/b/1/o/xl-mhb005-mast-harbour-original-imagspgxm4ra7vgn.jpeg?q=70"
+                            alt="beauty" width="150px" height="150px">
+                        <p>Mens Regular Fit</p>
+                        <div class="nav-image11">
+                            <p>₹799</p>
+                        </div>
+                    </div>
+                    <div class="tops-container6">
+                        <img src="https://rukminim1.flixcart.com/image/420/420/kuef2q80/kurta/h/n/y/s-dafksp20pi21aqua-max-original-imag7j8gnghzahsu.jpeg?q=60"
+                            alt="beauty" width="150px" height="150px">
+                        <p>Max & Rangmanch</p>
+                        <div class="nav-image11">
+                            <p>Under ₹449</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-container13">
+                    <h1>Top Stories : Brand Directory</h1>
+                    <!-- <div class="tops-container7"> -->
+                    <p>MOST SEARCHED FOR ON FLIPKART: Spoyl Store | One Pieces | Fashion EOSS Sale | Trend Stop |
+                        Flipkart
+                        Axis Bank Super Elite Credit card | 5G Mobile Phones | Primebook Laptops | Moto Edge 40 |
+                        BounceInfinity E1 |
+                    <p>Buy Laptop on EMI Infinix Zero Book Ultra | OPPO Reno8 5G| OPPO Reno8 Pro 5G | Fresh
+                        Flower Bouquet | Electric Cycles | Badminton | iphone 14 | Bouquet | Laptop Repair Services | AC
+                        Cleaning</p>
+                    <p>Infinity E1 | Buy Laptop on EMI Infinix Zero Book Ultra | OPPO Reno8 5G| OPPO Reno8 Pro 5G |
+                        Fresh
+                        Flower Bouquet | Electric Cycles | Badminton | iphone 14 | Bouquet | Laptop Repair Services | AC
+                        Cleaning</p>
+                    <p>Services | Oneplus Monitors | Grievance Redressal | Mobile Repair Services | Sell Old Mobile
+                        Phones |
+                        Premium Laptops | Electronics Store | Phone cover | Infinix INBook Y1 Plus | Okaya Electric
+                        Vehicles
+                        | bgauss</p>
+                    <p>electric scooter | OPPO Reno7 Pro 5G | iPhone 13 | iPhone 13 Pro | iPhone 13 Pro Max | iPhone 13
+                        Mini
+                        | Google Pixel 6a covers | Flipkart Quick | Ampere Magnus | Flipkart Help Centre | Online Boat
+                        Store
+                        | Covers from</p>
+                    <p>Rs 99 | Flipkart Track Orders | Flipkart Manage Orders | Flipkart Return Orders | Flipkart Gift
+                        Cards
+                        Store | Flipkart Axis Bank Credit Card | Flipkart Pay Later
+                        MOBILES iPhone 12 64GB | iPhone 12 Pro 512GB |
+                    <p>iPhone 12 128GB | Vivo Y91i | Vivo Y11 | Vivo Y15 |
+                        SAMSUNG Galaxy S21 FE 5G | Infinix HOT 30i | Realme 10 Pro 5G | MOTOROLA G32 | MOTOROLA G62
+                    </p>
+                    <p>5G| Nothing Phone | REDMI Note 12 Pro 5G | Infinix SMART 7 | Vivo Y50 | Vivo Y12 | Reno2 F | Oppo
+                        A12
+                        | Nothing Phone 5g | Google Pixel 5g Phone | Motorola 5g Phone | Realme 5g Smartphone | Apple 5g
+                    </p>
+                    <p>Phone | Iqoo 5g Phones | Oneplus 5g Phones | Vivo 5g Phones | Oppo 5g Smart Phones | Oppo F15 |
+                        Oppo
+                        A31 | Samsung A71 | Samsung A51 | Samsung A31 | Realme X2 | iPhone 11 | iPhone 11 Pro | Mobile
+                    </p>
+                    <p>Cover | Mobile Offers | iphone x | 4G Mobile | Nokia Mobile | Samsung Mobile | iphone | Oppo
+                        Mobile |
+                        Vivo Mobile
+                        CAMERA GoPro Action Camera | Nikon Camera | Canon Camera | Sony Camera | Canon DSLR | Nikon DSLR
+                    </p>
+                    <p>LAPTOPS Asus ROG Ally | MacBook Pro M2 | Premium Laptop | ASUS ROG Strix SCAR 16 (2023) Core i9
+                        13th
+                        Gen | ROG Zephyrus M16 (2023) Core i9 13th Gen | </p>
+                    <p>ASUS Zenbook 14 OLED (2022) | Realme Book
+                        Prime Core i5 11th Gen | Microsoft Surface Go Pentium 128GB | Branded Laptops | Apple Laptops |
+                        Acer
+                        Laptops | Lenovo Laptops | Dell Laptops | Asus Laptops | HP Laptops |
+                    </p>
+                    <p>Laptops Laptops | Dell latest laptops 2022 | HP latest laptops 2022 | Infinix INBook Y1 Plus |
+                        SAMSUNG Galaxy Book3 | 12th Gen Intel Core Laptops
+                        TVS Nokia TV | Panasonic TV | Thomson TV | Mi X Pro | </p>
+                    <p> Realme TV | Motorola TV | OnePlus TVs | LG TV
+                        | TV | Sony TV | Samsung TV | Android Television | Iffalcon Tv | Mi TV</p>
+                    <p>LARGE APPLIANCES TV & Appliances End of Season Sale | Television | Washing Machines |
+                        Refrigerators |
+                        Air Conditioners | Electric Cookers | Electric Jug (Heater) / Travel Kettles | Induction
+                        Cooktops |
+                    </p>
+                    <p>Inverters / stabilizer | Irons / Iron Box | Mixer Grinder Juicer | Wet Grinders | Chimneys |
+                        Microwave Ovens | Vacuum Cleaners | Water Purifier | Fan | MarQ Customer Care</p>
+                    <p>CLOTHING Green bridal lehenga | Bridal Blouse | Half saree blouse designs | Designer blouses |
+                        Blouse
+                        designs | Men Shirts | Plain suit with heavy dupatta | Half saree for kids | Cotton saree blouse
+                        designs |</p>
+                    <p>Kurta Pajama | Men T-Shirts | New blouse design | Jeans | Bridal designer blouse | Simple aari
+                        work
+                        blouse designs | Bridal banarasi sarees | Saree | High waist panties | Hooded jacket women |
+                        Dresses
+                        |</p>
+                    <p>Hoodie tshirts for men | One pieces | Hip hop cap for men | Groom wedding sherwani | Designer
+                        Salwar
+                        Suits | Bra | Aari work blouse hand designs | Cotton simple blouse designs | Banarasi saree
+                        blouse
+                        designs |</p>
+                    <p>Designer
+                        Kurtis | Stylish blouse astin design | Track Pant | Blouse neck designs | Men Kurtas | V neck
+                        blouse
+                        designs | Gym Wear | Party Dresses | Palazzo Suits | Boys Clothing | Gloves | Nighty | Maxi</p>
+                    <p>Dresses | Anarkali | Gowns | Culottes | Salwar Suits | Kurtis | Designer Sarees | Leggings |
+                        Shorts |
+                        Georgette Sarees | Ethnic Wear | Briefs & Trunks | Nike Watches | Women henley | uppada pattu
+                        sarees
+                        | Blouse back</p>
+                    <p> Blouse back
+                        design | Leopard dresses | Sleeveless shrugs | Latest blouse designs | Simple Blouse designs
+                        FOOTWEAR Shoes | Adidas Shoes | Reebok Shoes | Nike Shoes | Puma Shoes Boots | Bata Shoes |</p>
+                    <p> Woodland Shoes | Skechers Shoes | Sneakers | Womens Boots | Sports Shoes | Loafers | Sandals |
+                        Lotto Sports
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="main-container2">
+            <div class="banner-container14">
+                <!-- <div class="banner-container10"> -->
+                <!-- <h1>Top Deals On TVs & Appliances</h1> -->
+                <div class="centre-container">
+                    <div class="about-container">
+                        <h1>About</h1>
+
+                        <a href="/helpcentre?otracker=${otracker}_navlinks" class="HlWMPX"
+                            aria-label="Contact Us">Contact
+                            Us</a><br>
+                        <a href="https://corporate.flipkart.net/corporate-home" class="HlWMPX"
+                            aria-label="About Us">About
+                            Us</a><br>
+                        <a href="https://www.flipkartcareers.com/?otracker=${otracker}_navlinks" class="HlWMPX"
+                            aria-label="Careers">Careers</a><br>
+                        <a href="/helpcentre?otracker=${otracker}_navlinks" class="HlWMPX"
+                            aria-label="Flipkart Stories">Flipkart
+                            Stories</a><br>
+                        <!-- <a href="/helpcentre?otracker=${otracker}_navlinks" class="HlWMPX" aria-label="Press">Press</a><br>
+                    <a href="/helpcentre?otracker=${otracker}_navlinks" class="HlWMPX" rel="noopener noreferrer"
+                        target="_blank" aria-label="Flipkart Wholesale">Flipkart Wholesale</a><br>
+                    <a href="/corporate-information" class="HlWMPX" aria-label="Corporate Information">Corporate
+                        Information</a><br> -->
+                    </div>
+                </div>
+                <div class="banner-container15">
+                    <div class="about-container">
+                        <h1>Help</h1>
+                        <a href="/pages/payments" class="HlWMPX" aria-label="Payments">Payments</a><br>
+                        <a href="/pages/shipping" class="HlWMPX" aria-label="Shipping">Shipping</a><br>
+                        <a href="/helpcentre?catalog=55c9c6edb000002e002c1701&amp;view=CATALOG" class="HlWMPX"
+                            aria-label="Cancellation &amp; Returns">Cancellation &amp; Returns</a><br>
+                        <a href="/helpcentre?catalog=55c9c8e2b0000023002c1702&amp;view=CATALOG" class="HlWMPX"
+                            aria-label="FAQ">FAQ</a><br>
+                        <!-- <a href="https://seller.flipkart.com/fiv?otracker=${otracker}_navlinks" class="HlWMPX"
+                        aria-label="Report Infringement">Report Infringement</a><br> -->
+                    </div>
+                </div>
+                <div class="banner-container15">
+                    <div class="about-container">
+                        <h1>Consumer Policy</h1>
+                        <a href="/pages/returnpolicy?otracker=${otracker}_navlinks" class="HlWMPX"
+                            aria-label="Cancellation &amp; Returns">Cancellation &amp; Returns</a><br>
+                        <a href="/pages/terms?otracker=${otracker}_navlinks" class="HlWMPX"
+                            aria-label="Terms Of Use">Terms
+                            Of Use</a><br>
+                        <a href="/pages/paymentsecurity?otracker=${otracker}_navlinks" class="HlWMPX"
+                            aria-label="Security">Security</a><br>
+                        <a href="/pages/privacypolicy?otracker=${otracker}_navlinks" class="HlWMPX"
+                            aria-label="Privacy">Privacy</a><br>
+                    </div>
+                </div>
+                <div class="banner-container15">
+                    <div class="about-container">
+                        <h1>Social</h1>
+                        <a href="https://www.facebook.com/flipkart" class="HlWMPX"
+                            aria-label="Facebook">Facebook</a><br>
+                        <a href="https://www.twitter.com/flipkart" class="HlWMPX" aria-label="Twitter">Twitter</a><br>
+                        <a href="https://www.youtube.com/flipkart" class="HlWMPX" aria-label="YouTube">YouTube</a><br>
+
+                    </div>
+                </div>
+                <div class="banner-container16">
+                    <div class="about-container">
+                        <h1>Mail Us:</h1>
+                        <p class="_1oQ-r6">Flipkart Internet Private Limited, </p>
+                        Buildings Alyssa, Begonia &amp;
+                        <p> Clove Embassy Tech Village,
+                            Outer Ring Road, </p>
+                        Devarabeesanahalli Village,
+                        <p>Bengaluru, 560103,
+                            Karnataka, India</p>
+
+                    </div>
+                </div>
+                <div class="banner-container16">
+                    <div class="about-container">
+                        <h1>Registered Office</h1>
+                        <p class="_1oQ-r6">Flipkart Internet Private Limited,
+                            Buildings Alyssa, Begonia &amp;</p>
+                        <p>Clove Embassy Tech Village,
+                        <p> Outer Ring Road, Devarabeesanahalli Village, </p>
+                        <p> Bengaluru, 560103,
+                            Karnataka, India</p>
+                        <p> CIN : U51109KA2012PTC066107 </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
